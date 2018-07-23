@@ -12,9 +12,9 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<meta name="keywords" content="Laban小同学的杂货铺,淘宝,软件激活,win10,win10激活码,office2016激活码,win8,win8.1,win7,xp,winServer,纯净版iso镜像,原盘镜像,毕业设计,代码代写,网站定做,淘宝店铺宣传网站定做">
 		<meta name="description" content="提供win10激活码和office软件激活码和win系统远程安装激活,重装系统mac双系统">
+		<link rel="stylesheet" href="assets/css/style.css" />
 	</head>
 	<body class="landing">
-
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
@@ -31,7 +31,7 @@
 											<!--<li><a href="generic.html">Generic</a></li>
 											<li><a href="elements.html">Elements</a></li>
 											<li><a href="#">Sign Up</a></li>-->
-											<li><a id="a-lianxi" href="index.html#footer">联系我</a></li>
+											<li><a id="a-lianxi" class="scrolly" href="#footer">联系我</a></li>
 										</ul>
 									</div>
 								</li>
@@ -57,21 +57,20 @@
 							</ul>-->
 							<ul class="actions">
 								<li>
-									<a id="a-1" class="button special" href="#tow-1">
+									<a id="a-1" class="button special scrolly" href="#tow-1">
 										网站定做
 
 									</a>
 								</li>
 								<li>
-									<a id="a-2" class="button special" href="#tow-2">
+									<a id="a-2" class="button special scrolly" href="#tow-2">
 										Windows激活
 
 									</a>
 								</li>
 								<li>
-									<a id="a-3" class="button special" href="index.html#footer">
+									<a id="a-3" class="button special scrolly" href="#footer">
 										详情联系我
-
 									</a>
 								</li>
 							</ul>
@@ -95,7 +94,7 @@
 							</ul>
 						</div>
 					</section>
-                    <div class="chs">Collect from <a href="#" >微校园</a></div>
+
 
 				<!-- Two -->
 					<section id="two" class="wrapper alt style2">
@@ -186,9 +185,8 @@
 							<li>Copyright ©2018 Laban小同学的杂货铺</li><li>关注我的 <a href="http://m.tb.cn/h.32YW7pS" target="_blank" title="淘宝小铺">淘宝小铺</a> <!-- - Collect from <a href="#" title="微校园" >微校园</a>--></li>
 						</ul>
 					</footer>
-
 			</div>
-
+			<div><a id="toTop"></a></div>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 		    <!--<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>-->
@@ -200,14 +198,12 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-			<script>
-                $(function(){
-                    $("a[id^='a-']").click(function(){
-                        //根据a标签的href转换为id选择器，获取id元素所处的位置，并高度减50px（这里根据需要自由设置）
-                        $('html,body').animate({scrollTop: ($($(this).attr('href')).offset().top -50 )},1000);
-                        return false;//不要这句会有点卡顿
-                    });
-                });
-			</script>
+		<script src="assets/js/jquery.scrollToTop.min.js"></script>
+		<script>
+            $(function() {
+                $("#toTop").scrollToTop(1000);
+            });
+		</script>
+
 	</body>
 </html>
