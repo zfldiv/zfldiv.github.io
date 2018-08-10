@@ -1,15 +1,10 @@
-var clipboard = new Clipboard('.btn');
+var clipboard = new Clipboard('.kouliungbtn');
 clipboard.on('success', function(e) {
-    console.info('Action:', e.action);
-    console.info('Text:', e.text);
-    console.info('Trigger:', e.trigger);
     e.clearSelection();
     //alert('复制成功 !');
 });
 
 clipboard.on('error', function(e) {
-    console.error('Action:', e.action);
-    console.error('Trigger:', e.trigger);
     //alert('复制失败,请手动复制');
 });
 
