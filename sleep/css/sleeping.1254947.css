@@ -79,7 +79,7 @@ button{position:absolute;top:20px;width:150px;height:50px;font-size:30px}
 .select_box .woman_facingTo li:nth-child(3) .li_bg{background-image:url(../images/woman_right.png)}
 .select_box .woman_facingTo li:nth-child(4) .li_bg{background-image:url(../images/woman_back.png)}
 .select_box .cloth{display:none}
-.select_box .man_cloth,.select_box .woman_cloth{width:1340px;height:100%;margin-left:40px;position:absolute;top:0}
+.select_box .man_cloth,.select_box .woman_cloth{width:795px!important;height:100%;margin-left:40px;position:absolute;top:0}
 .select_box .man_cloth li,.select_box .woman_cloth li{width:130px;height:100%;float:left;position:relative}
 .select_box .man_cloth li .li_bg,.select_box .woman_cloth li .li_bg{width:100%;height:100%;background:url(../images/man_0.png) center 10px no-repeat;-webkit-transition:all linear .1s}
 .select_box .man_cloth li .li_text,.select_box .woman_cloth li .li_text{width:50px;line-height:20px;position:absolute;bottom:9px;left:37.5px;padding:0 5px 5px;-webkit-transition:all linear .1s}
@@ -169,7 +169,7 @@ button{position:absolute;top:20px;width:150px;height:50px;font-size:30px}
 .select_box .room ul li:nth-child(4) .li_bg{background-image:url(../images/room4.png)}
 .select_box .room ul li:nth-child(5) .li_bg{background-image:url(../images/room5.png)}
 .select_box .others{display:none}
-.select_box .others ul{width:3680px;height:100%;margin-left:40px}
+.select_box .others ul{width:2359px!important;height:100%;margin-left:40px}
 .select_box .others ul li{width:130px;height:100%;float:left;position:relative}
 .select_box .others ul li .li_bg{position:absolute;width:100%;bottom:0;height:138px;background:url(../images/0-0.png) center center no-repeat;-webkit-transition:all linear .1s}
 .select_box .others ul li .li_text{width:50px;position:absolute;bottom:9px;left:37.5px;padding:0 5px 5px;-webkit-transition:all linear .1s}
