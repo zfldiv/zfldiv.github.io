@@ -169,7 +169,7 @@ button{position:absolute;top:20px;width:150px;height:50px;font-size:30px}
 .select_box .room ul li:nth-child(4) .li_bg{background-image:url(../images/room4.png)}
 .select_box .room ul li:nth-child(5) .li_bg{background-image:url(../images/room5.png)}
 .select_box .others{display:none}
-.select_box .others ul{width:2359px!important;height:100%;margin-left:40px}
+.select_box .others ul{width:2493px!important;height:100%;margin-left:40px}
 .select_box .others ul li{width:130px;height:100%;float:left;position:relative}
 .select_box .others ul li .li_bg{position:absolute;width:100%;bottom:0;height:138px;background:url(../images/0-0.png) center center no-repeat;-webkit-transition:all linear .1s}
 .select_box .others ul li .li_text{width:50px;position:absolute;bottom:9px;left:37.5px;padding:0 5px 5px;-webkit-transition:all linear .1s}
@@ -205,7 +205,7 @@ button{position:absolute;top:20px;width:150px;height:50px;font-size:30px}
 .first_page{width:100%;height:100%;background:#fff;position:absolute;top:0;z-index:100}
 .first_page .top{position:absolute;top:34px;left:75px;width:643px;height:410px;background:url(../images/top.png) no-repeat}
 .first_page .pose{width:82%;height:368px;position:absolute;left:80px;top:518px;background:url(../images/sleep.png) no-repeat;}
-.first_page .start{width:314px;height:166px;background:url(../images/start.png) no-repeat;position:absolute;left:230px;bottom:200px}
+.first_page .start{width:314px;height:166px;background:url(../images/start.png) no-repeat;position:absolute;left:216px;bottom:200px}
 @keyframes pose{from{background-position:-5px -5px}
 16.67%{background-position:-257px -5px}
 33.34%{background-position:-509px -5px}
