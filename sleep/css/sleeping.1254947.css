@@ -13,7 +13,7 @@ button{position:absolute;top:20px;width:150px;height:50px;font-size:30px}
 .select .select_bar{width:750px;height:79px}
 .select .select_bar .scroll_bg{width:750px;height:70px;bottom:0;position:absolute;background:#282630}
 .select .select_bar .scroll_bar{position:absolute;bottom:0;width:750px;height:79px;overflow-x:scroll;font-size:0}
-.select .select_bar .scroll_bar ul{display:table;margin-top:9px;height:70px;width:804px;background:#282630}
+.select .select_bar .scroll_bar ul{display:table;margin-top:9px;height:70px;width:730px;background:#282630}
 .select .select_bar .scroll_bar ul .black_icon{width:186px;height:15px;background:url(../images/black_icon2.png) no-repeat;position:absolute;left:0;top:0;-webkit-transition:all linear .3s}
 .select .select_bar .scroll_bar li{z-index:1;width:103px;height:100%;float:left;background:#282630;position:relative;-webkit-transition:all linear .3s}
 .select .select_bar .scroll_bar li .icon{width:59px;height:59px;border-radius:10px;background:#413e4c url(../images/icon1.png) center no-repeat;position:absolute;left:21px;top:6px;-webkit-transition:all linear .3s}
@@ -28,8 +28,8 @@ button{position:absolute;top:20px;width:150px;height:50px;font-size:30px}
 .select .select_bar .scroll_bar li:nth-child(5) .text{background-image:url(../images/text5.png)}
 .select .select_bar .scroll_bar li:nth-child(6) .icon{background-image:url(../images/icon6.png)}
 .select .select_bar .scroll_bar li:nth-child(6) .text{background-image:url(../images/text6.png)}
-.select .select_bar .scroll_bar li:nth-child(7) .icon{background-image:url(../images/icon7.png)}
-.select .select_bar .scroll_bar li:nth-child(7) .text{background-image:url(../images/text7.png)}
+/*.select .select_bar .scroll_bar li:nth-child(7) .icon{background-image:url(../images/icon7.png)}
+.select .select_bar .scroll_bar li:nth-child(7) .text{background-image:url(../images/text7.png)}*/
 .select .select_bar .scroll_bar li::after{content:"";width:1px;height:50px;background:#373440;position:absolute;right:0;top:10px}
 .select .select_bar .scroll_bar .selected{width:186px;background:#0f0e14}
 .select .select_bar .scroll_bar .selected .icon{background-color:#ff216c;left:32px}
